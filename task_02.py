@@ -6,7 +6,7 @@
 def prepare_email(appointments):
     """This function
     Args:
-         appointments(two-item tuple): client's name and appointment time
+         appointments(list): client's name and appointment time (two-item tuple)
 
     Returns:
         list with strings that states information to be in e-mail body
