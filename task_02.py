@@ -18,7 +18,7 @@ def prepare_email(appointments):
     Examples:
     >>> ['Dear Gaye,\nI look forward to meeting with you on...'
     """
-    mail = 'Dear {0},\nI look forward to meeting with you on {1}.\nBest, \nMe'
+    mail = 'Dear {0},\nI look forward to meeting with you on {1}.\nBest,\nMe'
     new_list = []
     for info in appointments:
         new_list.append(mail.format(info[0], info[1]))
